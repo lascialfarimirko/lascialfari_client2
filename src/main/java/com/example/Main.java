@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws UnknownHostException, IOException {
+    public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         
         Socket s = new Socket("127.0.0.1", 3000);
